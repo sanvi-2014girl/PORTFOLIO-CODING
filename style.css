@@ -9,3 +9,30 @@ body{
     color: black;
     font-family: 'Poppins',sans-serif;
 }
+.link-button {
+  /* Makes the link behave like a layout box so padding works correctly */
+  display: inline-block; 
+  
+  /* Sizing and spacing */
+  padding: 10px 20px; 
+  margin: 5px;
+  
+  /* Visual styling to look like a button */
+  background-color: #f70909;
+  color: #ffffff;
+  border-radius: 5px;
+  
+  /* Removes the default underline from the link text */
+  text-decoration: none; 
+  text-align: center;
+  
+  /* Smooth transition for hover effects */
+  transition: background-color 0.2s ease;
+}
+
+/* Changes background color when the cursor hovers over it */
+.link-button:hover {
+  background-color: #0056b3;
+}
+
+
